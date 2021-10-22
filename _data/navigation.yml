@@ -10,3 +10,20 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+  
+  docs:
+    - title: CS
+      children:
+        - title: "Network"
+          url: /docs/network/
+        - title: "sample1"
+          url: /docs/sample1/
+        - title: "sample2"
+          url: /docs/sample2/
+    
+    - title: Daylife
+      children:
+        - title: "sample3"
+          url: /docs/sample3/
+        - title: "sample4"
+          url: /docs/sample4/
