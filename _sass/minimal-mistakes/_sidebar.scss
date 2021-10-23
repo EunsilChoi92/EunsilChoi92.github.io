@@ -28,12 +28,17 @@
     }
 
     &.sticky {
-  //  overflow-y: auto;
+      overflow-y: auto;
       /* calculate height of nav list
          viewport height - nav height - masthead x-padding
       */
       max-height: calc(100vh - #{$nav-height} - 2em);
     }
+  }
+
+  // 스크롤바 투명하게
+  ::-webkit-scrollbar {
+    display: none;
   }
 
   @include breakpoint($x-large) {
