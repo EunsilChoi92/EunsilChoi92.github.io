@@ -36,10 +36,6 @@
     }
   }
 
-  // 스크롤바 투명하게
-  ::-webkit-scrollbar {
-    display: none;
-  }
 
   @include breakpoint($x-large) {
     width: calc(#{$right-sidebar-width} - 1em);
