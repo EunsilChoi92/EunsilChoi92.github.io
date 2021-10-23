@@ -287,7 +287,8 @@ defaults:
       comments: # true
       share: true
       related: true
-      sidebar: true
+      sidebar:
+        nav: "docs"
   # _docs
   - scope:
       path: ""
