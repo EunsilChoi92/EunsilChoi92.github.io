@@ -2,7 +2,6 @@
 title: "JAVA"
 layout: category
 permalink: /categories/java/
-sidebar: true
 taxonomy: Java
 ---
 
